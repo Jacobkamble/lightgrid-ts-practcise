@@ -1,0 +1,28 @@
+
+
+.grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black; /* optional */
+  }
+  
+  .cell-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+  }
+  
